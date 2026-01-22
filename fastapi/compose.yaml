@@ -1,5 +1,6 @@
 services:
   api:
+    image: registry.ops.monadical.io/fastapi-test
     build:
       context: .
       target: builder
